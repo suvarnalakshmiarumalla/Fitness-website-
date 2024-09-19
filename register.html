@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./register.css" />
+  <title>Register | Fitclub</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav__logo">
+          <a href="#"><img src="assets/logo.png" alt="logo" /></a>
+        </div>
+        <ul class="nav__links">
+          <li class="link"><a href="./index.html">Home</a></li>
+          <li class="link"><a href="./register.css">Register</a></li>
+          <li class="link"><a href="./login.html">Login</a></li>
+          <li class="link"><a href="#">About</a></li>
+          <li class="link"><a href="#">Community</a></li>
+        </ul>
+        <button class="btn"><a href="register.html">Join Now</a></button>
+      </nav>
+      
+
+  <header class="section__container header__container">
+    <div class="header__content">
+      <h1>Register</h1>
+      <p>Fill out the form below to create your account.</p>
+    </div>
+  </header>
+
+  <section class="section__container register__container">
+    <div class="register__form">
+      <h2>Create Your Account</h2>
+      <form id="registrationForm">
+        <div class="form__group">
+          <label for="firstName">First Name</label>
+          <input type="text" id="firstName" name="firstName" required />
+        </div>
+        <div class="form__group">
+          <label for="lastName">Last Name</label>
+          <input type="text" id="lastName" name="lastName" required />
+        </div>
+        <div class="form__group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form__group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div class="form__group">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" id="confirmPassword" name="confirmPassword" required />
+        </div>
+        <button type="submit" class="btn">Register</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="section__container footer__container">
+    <span class="bg__blur"></span>
+    <span class="bg__blur footer__blur"></span>
+    <div class="footer__col">
+      <div class="footer__logo"><img src="assets/logo.png" alt="logo" /></div>
+      <p>
+        Take the first step towards a healthier, stronger you with our
+        unbeatable pricing plans. Let's sweat, achieve, and conquer together!
+      </p>
+      <div class="footer__socials">
+        <a href="#"><i class="ri-facebook-fill"></i></a>
+        <a href="#"><i class="ri-instagram-line"></i></a>
+        <a href="#"><i class="ri-twitter-fill"></i></a>
+      </div>
+    </div>
+    <div class="footer__col">
+      <h4>Company</h4>
+      <a href="#">Business</a>
+      <a href="#">Franchise</a>
+      <a href="#">Partnership</a>
+      <a href="#">Network</a>
+    </div>
+    <div class="footer__col">
+      <h4>About Us</h4>
+      <a href="#">Blogs</a>
+      <a href="#">Security</a>
+      <a href="#">Careers</a>
+    </div>
+    <div class="footer__col">
+      <h4>Contact</h4>
+      <a href="#">Contact Us</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">BMI Calculator</a>
+    </div>
+  </footer>
+  <div class="footer__bar">
+    Copyright © 2023 Web Design Mastery. All rights reserved.
+  </div>
+
+  <script src="register.js"></script>
+</body>
+</html>
